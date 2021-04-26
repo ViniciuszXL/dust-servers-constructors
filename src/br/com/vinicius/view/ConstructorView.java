@@ -161,6 +161,7 @@ public class ConstructorView extends JFrame {
 
 				cons.add("    tty: true");
 				cons.add("    stdin_open: true");
+				cons.add("    restart: always");
 			}
 		}
 
